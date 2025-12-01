@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Event Handling </title>
+    </head>
+    <body onload="alert('Your page is loading')">
+        <h2>Page onload </h2>
+        <p>Page loading </p>
+        <h2> Onclick </h2>
+        <button onclick="alert('Click on button')">Click here</button>
+        <h2> Mouse over and out </h2>
+        <p onmouseover="this.style.color='red'">
+            Mouse over the text
+        </p>
+        <p onmouseout="this.style.color='blue'">
+            Mouse out the text
+        </p>
+        <h2> Onchange </h2>
+        <select onchange="alert('Selection Changes')">
+            <option> Male </option>
+            <option> Female </option>
+        </select>
+        <h2> Onsubmit </h2>
+        <form onsubmit="alert('Form submitted....!'); return false;">
+            <label> Name </label>
+            <input type="text" required>
+            <button type="submit">Submit</button>  
+        </form>
+        <h2> Onkeyup and Onkeydown </h2>
+        <input text onkeydown="console.log('Key Pressed')"
+        placeholder="Press any key...!">
+        <input text onkeyup="console.log('Key Released')"
+        placeholder="Release any key...!">
+    </body>
+</html>
