@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> OOP </title>
+    </head>
+    <body>
+        <h1> Object Oriented Programming Language </h1>
+        <h2> Working with Object, Properties and Methods </h2>
+        <script>
+            Student=
+            {
+                name :"Devika",
+                age :18,
+                course : "CSE",
+            showMe:function()
+            {
+                return "Hello, My name is "+this.name; 
+            }
+            };
+            document.write("<br> <b> Name : </b>" +Student.name)
+            document.write("<br> <b> Age : </b>" +Student.age)
+            document.write("<br> <b> Course : </b>" +Student.course)
+            document.write("<br> <b> Hello.....</b> <br>" +Student.showMe())
+        </script>
+        <h2> Adding and Modifying Object Properties </h2>
+        <script>
+            car=
+            {
+                brand:"KIA",
+                model:"Carens",
+                year:2020,
+            };
+            document.write("<br><br>*******************<br><br>");
+            document.write("<br> <b> Brand Name : </b>"+ car.brand);
+            document.write("<br> <b> Model Name : </b>"+car.model);
+            document.write("<br> <b> Original Year : </b>"+car.year);
+            car.year = 2024;
+            document.write("<br> <b> updated Year : </b>"+car.year);
+            car.color = "Blue";
+            document.write("<br> <b> Added Color : </b>"+car.color);
+            document.write("<br><br>*******************<br><br>");
+        </script>
+    </body>
+</html>
