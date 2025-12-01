@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Square root
+        </title>
+    </head>
+    <body>
+        <h2>Square root</h2>
+        <script>
+            let a = 2
+            let b = 9
+            let c = 4
+            d = b * b - (4 * a * c)
+            r1 = -b + (sqrt(d)/2 * a)
+            r2 = -b - (sqrt(d)/2 * a) 
+            if(d == 0)
+            document.write("Equal roots")
+            document.write(r1)
+            document.write(r2)
+            else if(d > 0)
+            document.write("Infinite roots")
+            document.write(r1)
+            document.write(r2)
+            else
+            document.write("Real and distinct roots")
+            document.write(r1)
+            document.write(r2)
+        </script>
+    </body>
+</html>
