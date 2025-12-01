@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Eveny Attributes </title>
+        <script>
+            function handleClick(){
+                alert("single click on button")
+            }
+            function handleDoubleClick(){
+                alert("Double click on button")
+            }
+            function handleMouseOver(box)
+            {
+                box.style.background="Yellow";
+            }
+            function handleMouseOut(box)
+            {
+                box.style.background="green";
+            }
+            function handleKeyDown(){
+                console.log("key press down")
+            }
+            function handleKeyUp(){
+                document.getElementById("keyMassage")
+                .innerHTML="Key released..!";
+            }
+            
+            function handleFocus(x){
+                x.style.border="5px solid green"
+            }
+            function handleBlur(x){
+                x.style.border="2px solid yellow"
+            }  
+            function handleOnChange(x)
+            {
+                x.style.border="2px solid green"
+            }          
+        </script>
+    </head>
+    <body >
+        <h2> HTML Event</h2>
+        <button onclick="handleClick()">Single Click here</button>
+        <button ondblclick="handleDoubleClick()">Double Click here</button>
+        <div 
+        onmouseover="handleMouseOver(this)"
+        onmouseout="handleMouseOut(this)"
+        style="width: 150px; height: 40px; border: 1px solid black; "
+        >
+        Mouse over and out
+        </div>
+        <input type="text" placeholder="Press a key"
+        onkeydown="handleKeyDown()"
+        onkeyup="handleKeyUp()"        >
+        <p id="keyMassage"> Key Massage will be here..!</p>
+        <input type="text" placeholder="Focus and Blur "
+          onfocus="handleFocus(this)"
+          onblur="handleBlur(this)">
+
+          <select onchange="handleOnChange(this)">
+            <option>CSE</option>
+            <option>EEE</option>
+            <option>ECE</option>
+            <option>Civil</option>
+          </select>
+    </body>
+</html>
