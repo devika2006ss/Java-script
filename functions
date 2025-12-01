@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Types of Function</title>
+    </head>
+    <body>
+        <h2> Function with Arguments </h2>
+        <script>
+            let x = 9;
+            function add(a, b)//called funtion
+            //a and b -> actual argument
+            {
+                let s = a + b;
+                document.write("Sum: "+s)
+            }
+            add(5, 9);//called function
+            //5 and 9 -> actual argument
+        </script>
+        <h2> Function without Arguments </h2>
+        <script>
+            function add()
+            {
+                let a = 5;
+                let b = 9;
+                let s = a + b;
+                document.write("Sum: "+s)
+            }
+            add()
+        </script>
+        <h2> Function with return and with Arguments </h2>
+        <script>
+            function add(a, b)
+            {
+              let s = a + b;
+              return s;  
+            }
+            let t = add(5, 6);
+            document.write("Sum = "+add(5, 6));
+        </script>
+        <h2> Function with return and without Arguments </h2>
+        <p id="Result"></p>
+        <script>
+            function add()
+            {
+                let a = 5;
+                let b = 9;
+                let s = a + b;
+                return s;
+            }
+            document.getElementById("Result").innerHTML = "Sum = "+add();
+        </script>
+    </body>
+</html>
