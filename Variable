@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Java Script </title>
+        <!--<script src="MyScript.js"></script> -->
+    </head>
+    <body>
+        <h2> Java Script Variable</h2>
+        <script>
+            var a = 10;
+            let b = 20
+            var sum = a + b
+            document.write("a = "+a+"<br>")
+            document.write("b = "+b+"<br>")
+            document.write("sum ="+sum+"<br>")
+            document.write("diff ="+(a-b)+"<br>")
+            document.write("Multi ="+(a*b)+"<br>")
+            document.write("Mod ="+(a%3)+"<br>")
+        </script>
+    </body>
+</html>
