@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Script</title>
+    </head>
+    <body>
+        <h2> Mark of students</h2>
+        <script>
+            let result = 98
+            if(result > 90)
+            document.write("Outstanding")
+            else if(result > 80 && >= 90)
+            document.write("Extraordinary")  
+            else if(result > 70 && >= 80)
+            document.write("Very Good")
+            else if(result > 60 && >= 70)
+            document.write("Good")
+            else if(result > 50 && >= 60)
+            document.write("okay")
+            else if(result > 40 && >= 50)
+            document.write("Fail")  
+        </script>
+    </body>
+</html>
