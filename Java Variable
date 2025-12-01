@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Java Script</title>
+    </head>
+    <body>
+        <h2>Jaava Script Variable</h2>
+        <script>
+            let age = 34
+            if(age >= 18)
+            {
+            document.write("You can vote <br>")    
+            }
+            else
+            document.write("Your age is less than 18 try again later..!<br>")
+            document.write("Thank you for voting....!")
+        </script>
+    </body>
+</html>
