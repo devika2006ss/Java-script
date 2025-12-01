@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Script </title>
+    </head>
+    <body>
+        <h2> Even or Odd </h2>
+        <script>
+            let a = 45
+            if(a % 2 == 0)
+            {
+                document.write("It is an even number<br>")
+            }
+            else
+            {
+                document.write("It is an odd number")
+            }
+        </script>
+    </body>
+</html>
