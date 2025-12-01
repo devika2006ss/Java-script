@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Operations </title>
+    </head>
+    <body>
+        <script>
+            let a = 10;
+            let b = 2;
+            let op = '/'
+            switch(op)
+            {
+                case '+':
+                    document.write("Sum:"+(a+b)+"<br>");
+                    break;
+                case '-':
+                    document.write("Subtraction:"+(a-b)+"<br>");
+                    break;
+                case '*':
+                    document.write("Multiplication:"+(a*b)+"<br>");
+                    break;
+                case '/':
+                    document.write("Division:"+(a/b)+"<br>");
+                    break;
+                default:
+                    document.write("Invalid....");
+                    break;
+            }
+            
+        </script>
+    </body>
+</html>
