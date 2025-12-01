@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Java Script </title>
+    </head>
+    <body>
+        <h4>Largest number</h4>
+        <script>
+            //Largest number between two numbers
+            //largest number among three numbers
+            let x = 30
+            let y = 25
+            let z = 40
+            if(x > y && x > z)
+                document.write("x is the largest number<br>")
+             
+            else if(y > z)
+                document.write("y is the largest number<br>")
+            else
+                document.write("z is the largest number<br>")
+        </script>
+    </body>
+</html>
