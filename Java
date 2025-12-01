@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Javascript </title>
+        <script>
+            function callMe()
+            {
+                alert("Say Hello!, Every one");
+            }
+        </script>
+    </head>
+    <body>
+        <h2> Java Script</h2>
+        <button onclick="callMe()">Click Here !!!! </button>
+        <h2> Java Script in body tag</h2>
+        <p id="Say Hello"> Paragraph </p>
+        <script>
+            document.getElementById("Say Hello").innerHTML ="This text is changed by Java Script"
+        </script>
+    </body>
+</html>
