@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Vowels or Consonants </title>
+    </head>
+    <body>
+        <script>
+            let ch = 't'
+            switch(ch)
+            {
+                case 'a':
+                    document.write("Vowel");
+                    break;
+                case 'e':
+                    document.write("Vowel");
+                    break;
+                case 'i':
+                    document.write("Vowel");
+                    break;
+                case 'o':
+                    document.write("Vowel");
+                    break;
+                case 'u':
+                    document.write("Vowel");
+                    break;
+                default:
+                    document.write("Consonant");
+                    break;
+            }
+            
+        </script>
+    </body>
+</html>
