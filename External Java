@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script src="MyScript.js"></script>
+    </head>
+    <body>
+        <h2>External Java Script </h2>
+        <script src="MyScript.js"></script>
+        <button onclick="showMessage()">click Me...!!!</button>
+    </body>
+</html>
